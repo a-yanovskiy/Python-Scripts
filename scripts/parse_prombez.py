@@ -12,7 +12,7 @@ def get_html(url):
 
 
 def get_data(html):
-    file = open("../tk_1/prombez/prombez.txt", "w", encoding='utf-8')
+    file = open("prombez.txt", "w", encoding='utf-8')
 
     soup = BeautifulSoup(html, 'lxml')
 
